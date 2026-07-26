@@ -1,7 +1,14 @@
 aid: expansive
 name: Expansive
-description: Expansive is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Expansive is a Mexican real estate crowdfunding platform (crowdfunding inmobiliario) that lets
+  individuals invest collectively in vetted real estate projects from as little as 1,000 MXN, earning
+  returns backed by real guarantees. It operates as a regulated collective financing institution (IFC)
+  under Mexico's Fintech Law and is supervised by the CNBV (Comisión Nacional Bancaria y de Valores).
+  Expansive handles project vetting, funding, quarterly investor reporting, and payouts through its
+  web platform and investor app (app.expansive.mx). The company is a portfolio company of 500 Global.
+  It is a consumer-facing fintech investing product; it does not publish a public developer API,
+  documentation, or SDK surface.
 url: https://raw.githubusercontent.com/api-evangelist/expansive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://expansive.mx/images/seo/og-image.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Real Estate
+- Crowdfunding
+- Investing
+- Proptech
+- Collective Financing
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://expansive.mx
+- type: Blog
+  url: https://expansive.mx/blog
+- type: Support
+  url: https://centrodeayuda.expansive.mx/
+- type: Pricing
+  url: https://expansive.mx/costos-y-comisiones
+- type: SignUp
+  url: https://app.expansive.mx/registro/
+- type: Login
+  url: https://app.expansive.mx/login/
+- type: TermsOfService
+  url: https://expansive.mx/legal/terminos-y-condiciones
+- type: PrivacyPolicy
+  url: https://expansive.mx/legal/politicas-de-privacidad
+- type: DomainSecurity
+  url: security/expansive-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
